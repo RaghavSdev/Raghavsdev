@@ -19,7 +19,6 @@
 
 **Languages** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 **Machine Learning & AI** ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -44,7 +43,7 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rundowndanger&show_icons=true&theme=radical" alt="Raghav's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_EXACT_USERNAME_HERE&show_icons=true&theme=radical" alt="Raghav's GitHub Stats" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rundowndanger&theme=radical" alt="Raghav's GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_EXACT_USERNAME_HERE&theme=radical" alt="Raghav's GitHub Streak" />
 </div>
