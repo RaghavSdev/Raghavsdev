@@ -1,54 +1,169 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
   <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+
+      /* Background &amp; Ambient Glow Animations */
+      @keyframes floatOrb1 {
+        0% { cx: 250px; cy: 100px; r: 140px; opacity: 0.18; }
+        50% { cx: 650px; cy: 140px; r: 180px; opacity: 0.28; }
+        100% { cx: 250px; cy: 100px; r: 140px; opacity: 0.18; }
+      }
+
+      @keyframes floatOrb2 {
+        0% { cx: 700px; cy: 150px; r: 120px; opacity: 0.12; }
+        50% { cx: 300px; cy: 90px; r: 160px; opacity: 0.22; }
+        100% { cx: 700px; cy: 150px; r: 120px; opacity: 0.12; }
+      }
+
+      /* Cyberpunk Laser Scanner Line */
+      @keyframes scanline {
+        0% { y: 20px; opacity: 0; }
+        15% { opacity: 0.7; }
+        85% { opacity: 0.7; }
+        100% { y: 220px; opacity: 0; }
+      }
+
+      /* Title Flame Shimmer */
+      @keyframes shimmer {
+        0% { stop-color: #FF5738; }
+        25% { stop-color: #F84525; }
+        50% { stop-color: #FF8A65; }
+        75% { stop-color: #F84525; }
+        100% { stop-color: #FF5738; }
+      }
+
+      /* Live Status Dot Pulse */
+      @keyframes pulseDot {
+        0% { r: 5px; opacity: 1; }
+        50% { r: 7.5px; opacity: 0.4; }
+        100% { r: 5px; opacity: 1; }
+      }
+
+      @keyframes rippleRing {
+        0% { r: 5px; opacity: 0.8; }
+        100% { r: 14px; opacity: 0; }
+      }
+
+      /* Border Neon Breathing */
+      @keyframes borderGlow {
+        0% { stroke-opacity: 0.35; stroke-width: 1.5; }
+        50% { stroke-opacity: 0.85; stroke-width: 2; }
+        100% { stroke-opacity: 0.35; stroke-width: 1.5; }
+      }
+
+      /* Bottom Laser Expand */
+      @keyframes barPulse {
+        0% { width: 320px; x: 290px; opacity: 0.6; }
+        50% { width: 520px; x: 190px; opacity: 1; }
+        100% { width: 320px; x: 290px; opacity: 0.6; }
+      }
+
+      /* Sparkle Blink */
+      @keyframes sparkle {
+        0%, 100% { opacity: 0.1; }
+        50% { opacity: 0.9; transform: scale(1.3); }
+      }
+
+      .orb1 { animation: floatOrb1 10s ease-in-out infinite; }
+      .orb2 { animation: floatOrb2 12s ease-in-out infinite; }
+      .scanner { animation: scanline 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+      .status-pulse { animation: pulseDot 2s ease-in-out infinite; }
+      .status-ripple { animation: rippleRing 2s cubic-bezier(0.1, 0.8, 0.3, 1) infinite; }
+      .border-glow { animation: borderGlow 4s ease-in-out infinite; }
+      .bar-anim { animation: barPulse 5s ease-in-out infinite; }
+      .sp1 { animation: sparkle 3s ease-in-out infinite; transform-origin: 150px 75px; }
+      .sp2 { animation: sparkle 4s ease-in-out 1.5s infinite; transform-origin: 750px 165px; }
+      .sp3 { animation: sparkle 3.5s ease-in-out 0.8s infinite; transform-origin: 810px 75px; }
+    </style>
+
+    <!-- Gradients -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#141413" />
-      <stop offset="50%" stop-color="#1c1b1a" />
-      <stop offset="100%" stop-color="#0d0d0c" />
+      <stop offset="0%" stop-color="#121211" />
+      <stop offset="50%" stop-color="#181817" />
+      <stop offset="100%" stop-color="#0c0c0b" />
     </linearGradient>
-    <linearGradient id="flame-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF5738" />
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B4A" />
       <stop offset="50%" stop-color="#F84525" />
-      <stop offset="100%" stop-color="#E02E0E" />
+      <stop offset="100%" stop-color="#FF3815" />
     </linearGradient>
-    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F84525" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#FF7A59" stop-opacity="0.2" />
+
+    <linearGradient id="laser-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F84525" stop-opacity="0" />
+      <stop offset="30%" stop-color="#FF5738" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="70%" stop-color="#FF5738" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#F84525" stop-opacity="0" />
     </linearGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F84525" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FF5738" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F84525" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="cyber-grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.04"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+
+    <filter id="laser-blur" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20" />
     </filter>
   </defs>
 
-  <!-- Background Canvas -->
-  <rect width="900" height="240" rx="16" fill="url(#bg-grad)" stroke="#F84525" stroke-width="1.5" stroke-opacity="0.4"/>
-  <rect width="900" height="240" rx="16" fill="url(#grid)" />
+  <!-- Base Dark Container -->
+  <rect width="900" height="240" rx="16" fill="url(#bg-grad)" />
+  <rect width="900" height="240" rx="16" fill="url(#cyber-grid)" />
 
-  <!-- Ambient Glow Orb -->
-  <circle cx="450" cy="120" r="160" fill="#F84525" opacity="0.12" filter="url(#glow)"/>
+  <!-- Animated Ambient Flame Light Orbs -->
+  <circle class="orb1" cx="300" cy="110" r="150" fill="#F84525" filter="url(#soft-glow)" />
+  <circle class="orb2" cx="650" cy="130" r="140" fill="#FF5738" filter="url(#soft-glow)" />
 
-  <!-- Top Terminal Bar -->
-  <circle cx="35" cy="30" r="5.5" fill="#FF5F56" />
-  <circle cx="55" cy="30" r="5.5" fill="#FFBD2E" />
-  <circle cx="75" cy="30" r="5.5" fill="#27C93F" />
-  <text x="105" y="34" fill="#666666" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" letter-spacing="1">raghav@dev-neural-core: ~</text>
-  <text x="780" y="34" fill="#27C93F" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="600" letter-spacing="1">● ONLINE</text>
+  <!-- Animated Cyberpunk Scanner Beam -->
+  <rect class="scanner" x="20" y="20" width="860" height="2" fill="url(#laser-grad)" filter="url(#laser-blur)" />
 
-  <!-- Divider Line -->
+  <!-- Blinking Grid Corner Sparkles -->
+  <circle class="sp1" cx="150" cy="75" r="2" fill="#FF7A59" />
+  <circle class="sp2" cx="750" cy="165" r="2.5" fill="#FF7A59" />
+  <circle class="sp3" cx="810" cy="75" r="1.5" fill="#FFFFFF" />
+
+  <!-- Top Console Status Bar -->
+  <circle cx="35" cy="30" r="5" fill="#FF5F56" />
+  <circle cx="53" cy="30" r="5" fill="#FFBD2E" />
+  <circle cx="71" cy="30" r="5" fill="#27C93F" />
+  <text x="96" y="34" fill="#777777" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">raghav@neural-core: ~ (v2.4.0)</text>
+
+  <!-- Live Pulse Dot & Ripple Ring -->
+  <circle class="status-ripple" cx="780" cy="30" r="5" fill="none" stroke="#27C93F" stroke-width="1.5" />
+  <circle class="status-pulse" cx="780" cy="30" r="5" fill="#27C93F" />
+  <text x="796" y="34" fill="#27C93F" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">ONLINE</text>
+
+  <!-- Sleek Header Horizontal Line -->
   <line x1="20" y1="52" x2="880" y2="52" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
 
-  <!-- Main Name Title with Glowing Accent -->
-  <text x="450" y="118" text-anchor="middle" fill="url(#flame-grad)" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" letter-spacing="4">RAGHAV S</text>
+  <!-- Glowing Title: RAGHAV S -->
+  <g id="title-group">
+    <!-- Drop Glow for Title -->
+    <text x="450" y="118" text-anchor="middle" fill="#F84525" font-family="'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="900" letter-spacing="5" opacity="0.35" filter="url(#laser-blur)">RAGHAV S</text>
+    <text x="450" y="118" text-anchor="middle" fill="url(#title-grad)" font-family="'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="900" letter-spacing="5">RAGHAV S</text>
+  </g>
 
-  <!-- Subtitle -->
-  <text x="450" y="152" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" font-weight="600" letter-spacing="2.5" opacity="0.95">AI &amp; MACHINE LEARNING ENGINEER</text>
+  <!-- Subtitle Tagline -->
+  <text x="450" y="152" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" letter-spacing="2.5" opacity="0.95">AI &amp; MACHINE LEARNING ENGINEER</text>
 
-  <!-- Secondary Line -->
-  <text x="450" y="180" text-anchor="middle" fill="#A0A0A0" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="1.5">PREDICTIVE MODELING · RAG SYSTEMS · FULL-STACK ARCHITECT</text>
+  <!-- Architecture Subline -->
+  <text x="450" y="178" text-anchor="middle" fill="#A8A8A8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500" letter-spacing="1.5">PREDICTIVE MODELING · RAG SYSTEMS · FULL-STACK ARCHITECT</text>
 
-  <!-- Bottom Accent Bar -->
-  <rect x="250" y="208" width="400" height="2" rx="1" fill="url(#glow-grad)" />
+  <!-- Animated Glowing Bottom Accent Bar -->
+  <rect class="bar-anim" x="250" y="206" width="400" height="2.5" rx="1.25" fill="url(#accent-glow)" filter="url(#laser-blur)" />
+
+  <!-- Outer Neon Breathing Border -->
+  <rect class="border-glow" width="900" height="240" rx="16" fill="none" stroke="#F84525" stroke-width="1.5" />
 </svg>
