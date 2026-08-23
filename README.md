@@ -1,108 +1,124 @@
 <div align="center">
 
-  <br />
+  <!-- Visual Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:f84525,100:111111&height=220&section=header&text=RAGHAV%20S&fontSize=52&fontAlignY=36&desc=AI%20%26%20ML%20ENGINEER%20%E2%80%A2%20FULL-STACK%20ARCHITECT&descFontSize=16&descAlignY=58&fontColor=ffffff" width="100%" alt="Header Banner" />
 
-  <!-- Animated Typing Header Banner -->
+  <!-- Animated JetBrains Mono Typing Subtitle -->
   <a href="https://raghavsdev.github.io/portfolio/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=2500&pause=1000&color=F84525&center=true&vCenter=true&width=800&height=70&lines=RAGHAV+S+%E2%80%94+AI+%26+ML+ENGINEER;BUILDING+INTELLIGENT+AI+MODELS;DEPLOYING+PRODUCTION+SYSTEMS+AT+SCALE;PREDICTIVE+MODELING+%2F%2F+RAG+SYSTEMS;REACT.JS+%2F%2F+SPRING+BOOT+%2F%2F+AWS+CLOUD" alt="Typing Header Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=F84525&center=true&vCenter=true&width=750&height=40&lines=Building+Intelligent+AI+Models;Deploying+Production+Systems+at+Scale;Predictive+Modeling+%2F%2F+RAG+Pipelines;React.js+%2F%2F+Spring+Boot+%2F%2F+AWS+Cloud" alt="Typing Banner" />
   </a>
 
-  <p align="center">
-    <b>B.Sc. Artificial Intelligence & Machine Learning · Oracle Gen AI Certified (86%) · Full-Stack Architect</b>
-  </p>
+  <br />
 
-  <!-- Live Links & Connect Badges -->
+  <!-- Quick Action & Connect Launchers -->
   <p align="center">
     <a href="https://raghavsdev.github.io/portfolio/"><img src="https://img.shields.io/badge/⚡_LIVE_PORTFOLIO-VISIT_WEBSITE-F84525?style=for-the-badge&logoColor=white" alt="Live Portfolio Website" /></a>
-    &nbsp;
-    <a href="https://www.linkedin.com/in/raghav-s-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" /></a>
-    &nbsp;
-    <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Email-cdj90000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" /></a>
-    &nbsp;
-    <a href="tel:+918807178840"><img src="https://img.shields.io/badge/Phone-+91_8807178840-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Direct Phone" /></a>
+    <a href="https://www.linkedin.com/in/raghav-s-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Email-cdj90000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="tel:+918807178840"><img src="https://img.shields.io/badge/Phone-+91_8807178840-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" /></a>
   </p>
 
-  <!-- Primary Technology Shields -->
+  <!-- Credential Highlights Pills -->
   <p align="center">
-    <a href="https://oracle.com"><img src="https://img.shields.io/badge/Oracle_Gen_AI-Certified_86%25-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Certified" /></a>
-    <a href="https://python.org"><img src="https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-    <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" /></a>
-    <a href="https://react.dev"><img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
-    <a href="https://spring.io"><img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" /></a>
-    <a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/AWS_Cloud-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS Cloud" /></a>
+    <img src="https://img.shields.io/badge/Oracle_Gen_AI-86%25_Certified-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Certified" />
+    <img src="https://img.shields.io/badge/Education-B.Sc._AI_&_ML-3776AB?style=flat-square&logo=google-scholar&logoColor=white" alt="B.Sc AI & ML" />
+    <img src="https://img.shields.io/badge/Experience-Full--Stack_Intern-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Internship" />
+    <img src="https://img.shields.io/badge/Location-Coimbatore,_India-232F3E?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
   </p>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   🎓 B.Sc. AI & ML Student  ·  Sri Krishna Arts & Science College           │
-│   📜 Oracle Generative AI Professional Certified (Scored 86%)               │
-│   🚀 Specialist in RAG Systems, FAISS Vector Search & Predictive Models     │
-│   ⚡ Full-Stack Developer  ·  React, Spring Boot, MySQL & AWS Cloud         │
-│   📍 Location: Coimbatore, Tamil Nadu, India                                │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-I am an **AI & Machine Learning Engineer** and **Full-Stack Software Developer** based in Coimbatore, India. Currently pursuing my B.Sc. in AI & ML at Sri Krishna Arts and Science College, I focus on engineering intelligent predictive models, building production Retrieval-Augmented Generation (RAG) pipelines, and architecting scalable full-stack cloud software.
-
-* 🧠 **Artificial Intelligence & GenAI**: Deep hands-on experience with PyTorch, TensorFlow, FAISS vector search pipelines, and Real-Time SSE response streaming.
-* 💻 **Full-Stack Engineering**: Architecting enterprise backends with Java Spring Boot & MySQL, paired with modern, dynamic React.js and Next.js frontends.
-* ☁️ **Cloud Infrastructure**: Deploying and managing resilient, scalable web services and databases on AWS.
-
----
-
-## 🛠️ Technical Skill Matrix
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **🧠 AI & Machine Learning** | `Python` `PyTorch` `TensorFlow` `Generative AI` `RAG Pipelines` `FAISS Vector Search` `Predictive ML` |
-| **💻 Full-Stack Development** | `React.js` `Next.js` `Java` `Spring Boot` `TypeScript` `JavaScript (ES6+)` `Tailwind CSS` `SSE Streaming` |
-| **☁️ Cloud & Databases** | `AWS Cloud` `MySQL` `DBMS` `Docker & Containers` `RESTful APIs` `Git & GitHub` |
-| **⚙️ CS & Architecture** | `Data Structures & Algorithms (DSA)` `Object-Oriented Programming (OOP)` `Software Design` |
-
----
-
-## 🚀 Featured Projects & Creations
+### 🌟 About & Engineering Philosophy
 
 <div align="center">
 
-| Project | Type | Description | Tech Stack | Links |
-| :--- | :--- | :--- | :--- | :--- |
-| **⚡ RAG-Vision-AI** | `AI / RAG Pipeline` | Retrieval-Augmented Generation chatbot with FAISS vector search, SSE streaming & Cyberpunk UI. | Python, FAISS, GenAI, SSE, React | [⚡ Live App](https://raghavsdev.github.io/RAG-Vision-AI/) · [📂 Repo](https://github.com/RaghavSdev/RAG-Vision-AI) |
-| **🌿 Plant Disease Detector (FloraGuard)** | `Deep Learning` | Plant disease prediction neural model classifying crop diseases with **98% accuracy**. | Python, PyTorch, Deep Learning, Render | [🌿 Live App](https://plant-disease-detector-fzug.onrender.com) · [📂 Repo](https://github.com/RaghavSdev) |
-| **🔊 DigitalAudio Website** | `Commercial Web` | Luxury commercial landing page for Coimbatore sound engineering & event audio rental. | HTML5, CSS3, ES6+, UI/UX | [🔊 Live Site](https://digitalaudioo.vercel.app/) · [📂 Repo](https://github.com/RaghavSdev/DigitalAudio-Website) |
-| **🔒 Placement Portal** | `Full-Stack Enterprise` | Enterprise recruitment platform with candidate processing and AWS cloud deployment. | React, Spring Boot, MySQL, AWS | [📂 Repo](https://github.com/RaghavSdev) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 AI & Neural Architectures</h3>
+      <ul>
+        <li><b>RAG Pipelines & FAISS:</b> Vector search with real-time response generation.</li>
+        <li><b>Deep Learning:</b> Predictive modeling with PyTorch & TensorFlow.</li>
+        <li><b>Real-Time Streaming:</b> Low-latency SSE delivery for interactive AI apps.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Full-Stack & Cloud Infrastructure</h3>
+      <ul>
+        <li><b>Enterprise Backends:</b> Java Spring Boot, RESTful APIs & MySQL DBMS.</li>
+        <li><b>Modern Frontends:</b> High-performance React.js & Next.js web applications.</li>
+        <li><b>Cloud Scaling:</b> Resilient architecture & containerized deployment on AWS.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
 
-## 🎓 Education, Experience & Certifications
+### 🛠️ Visual Tech Stack & Ecosystem
 
-### 💼 Engineering Experience
-* 💻 **Software Development Intern** (*1-Month Internship*)
-  - Engineered a full-stack web application utilizing React, Spring Boot, and MySQL.
-  - Optimized system architecture for efficient data processing and managed end-to-end cloud deployment on AWS.
-  - Resolved critical bugs and ensured cross-platform responsiveness.
+<div align="center">
 
-### 🎓 Education & Certifications
-* 🎓 **Sri Krishna Arts and Science College** (*Aug 2024 – May 2027*) — **B.Sc. Artificial Intelligence & Machine Learning**
-* 📜 **Oracle Generative AI Professional Certified** — *Oracle* (**Scored 86%**)
-* 📜 **Artificial Intelligence 6-Month Certification** — *Indra Institute of Education*
-* 📜 **Soft Skills Certification** — *NPTEL*
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,react,nextjs,java,spring,ts,js,tailwind,aws,mysql,docker,git,github,postman&perline=8&theme=dark" alt="My Tech Stack" />
+  </a>
+
+  <br /><br />
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Specialty-FAISS_Vector_Search-00599C?style=flat-square&logo=meta&logoColor=white" alt="FAISS" />
+    <img src="https://img.shields.io/badge/Specialty-Generative_AI_%26_RAG-F84525?style=flat-square&logoColor=white" alt="RAG" />
+    <img src="https://img.shields.io/badge/Specialty-SSE_Streaming-61DAFB?style=flat-square&logoColor=black" alt="SSE" />
+    <img src="https://img.shields.io/badge/Specialty-AWS_Deployment-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Deployment" />
+  </p>
+
+</div>
 
 ---
 
-## 📊 GitHub Activity & Analytics
+### 🚀 Featured Creations & Live Systems
 
 <div align="center">
+
+| System | Architecture / Focus | Key Tech | Action & Source |
+| :--- | :--- | :--- | :--- |
+| **⚡ RAG-Vision-AI** | Retrieval-Augmented Generation chatbot with FAISS vector search & SSE streaming | `Python` `FAISS` `GenAI` `React` | [⚡ **Live Demo**](https://raghavsdev.github.io/RAG-Vision-AI/) · [📂 **Repo**](https://github.com/RaghavSdev/RAG-Vision-AI) |
+| **🌿 FloraGuard AI** | Neural crop leaf disease classification engine reaching **98% accuracy** | `Python` `PyTorch` `Neural Nets` | [🌿 **Live Demo**](https://plant-disease-detector-fzug.onrender.com) · [📂 **Repo**](https://github.com/RaghavSdev) |
+| **🔊 DigitalAudio** | Luxury commercial sound engineering & rental presentation platform | `HTML5` `CSS3` `JavaScript (ES6+)` | [🔊 **Live Demo**](https://digitalaudioo.vercel.app/) · [📂 **Repo**](https://github.com/RaghavSdev/DigitalAudio-Website) |
+| **🔒 Placement Portal** | Enterprise recruitment management platform with cloud deployment on AWS | `React.js` `Spring Boot` `MySQL` `AWS` | [📂 **Source Repo**](https://github.com/RaghavSdev) |
+
+</div>
+
+---
+
+### 📜 Verified Milestones & Timeline
+
+<div align="center">
+
+| Period / Type | Role & Milestone | Organization & Details |
+| :--- | :--- | :--- |
+| **2024 — 2027** | 🎓 **B.Sc. AI & ML** | Sri Krishna Arts and Science College · Predictive Modeling & Deep Learning |
+| **Internship** | 💼 **Software Development Intern** | Engineered full-stack React + Spring Boot + MySQL platform on AWS |
+| **Certification** | 📜 **Oracle Generative AI Professional** | Official Oracle Certification · **Examination Score: 86%** |
+| **Certification** | 📜 **Artificial Intelligence (6-Month)** | Indra Institute of Education Certification |
+| **Certification** | 📜 **Soft Skills Certification** | NPTEL (National Programme on Technology Enhanced Learning) |
+
+</div>
+
+---
+
+### 📊 GitHub Real-Time Activity & Analytics
+
+<div align="center">
+
+  <!-- Interactive Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaghavSdev&theme=react-dark&bg_color=141413&color=F84525&line=F84525&point=FFFFFF&hide_border=true" width="100%" alt="Raghav S GitHub Activity Graph" />
+
+  <br /><br />
 
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=RaghavSdev&show_icons=true&theme=dark&hide_border=true&title_color=F84525&text_color=CCCCCC&icon_color=F84525&bg_color=141413" alt="Raghav S GitHub Stats" />
@@ -118,22 +134,21 @@ I am an **AI & Machine Learning Engineer** and **Full-Stack Software Developer**
 
 ---
 
-## 📫 Connect & Reach Me
+### 📡 Connect & Collaborate
 
 <div align="center">
 
-  <p>I am actively open to collaborations on <b>AI/ML Projects</b>, <b>RAG Architectures</b>, and <b>Software Engineering Roles</b>.</p>
-
   <p align="center">
-    <a href="https://raghavsdev.github.io/portfolio/">🌐 <b>Live Portfolio</b></a> &nbsp;•&nbsp;
-    <a href="https://www.linkedin.com/in/raghav-s-dev">💼 <b>LinkedIn Profile</b></a> &nbsp;•&nbsp;
-    <a href="mailto:cdj90000@gmail.com">📧 <b>cdj90000@gmail.com</b></a> &nbsp;•&nbsp;
-    <a href="tel:+918807178840">📞 <b>+91 8807178840</b></a>
+    <a href="https://raghavsdev.github.io/portfolio/"><img src="https://img.shields.io/badge/⚡_VISIT_PORTFOLIO-F84525?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" /></a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/raghav-s-dev"><img src="https://img.shields.io/badge/LinkedIn_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    &nbsp;
+    <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
 
   <br />
 
-  <!-- Animated Footer Typing Banner -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=F84525&center=true&vCenter=true&width=700&height=40&lines=THANK+YOU+FOR+VISITING!+%E2%9C%A8;LET'S+BUILD+INTELLIGENT+SYSTEMS+TOGETHER." alt="Footer Typing Banner" />
+  <!-- Visual Waving Footer Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:111111,100:f84525&height=120&section=footer" width="100%" alt="Footer Wave Banner" />
 
 </div>
