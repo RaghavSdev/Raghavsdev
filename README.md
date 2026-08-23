@@ -27,6 +27,27 @@
 
 ---
 
+### 🛠️ Visual Tech Stack & Ecosystem
+
+<div align="center">
+
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,react,nextjs,java,spring,ts,js,tailwind,aws,mysql,docker,git,github,postman&perline=8&theme=dark" alt="My Tech Stack" />
+  </a>
+
+  <br /><br />
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Specialty-FAISS_Vector_Search-00599C?style=flat-square&logo=meta&logoColor=white" alt="FAISS" />
+    <img src="https://img.shields.io/badge/Specialty-Generative_AI_%26_RAG-F84525?style=flat-square&logoColor=white" alt="RAG" />
+    <img src="https://img.shields.io/badge/Specialty-SSE_Streaming-61DAFB?style=flat-square&logoColor=black" alt="SSE" />
+    <img src="https://img.shields.io/badge/Specialty-AWS_Deployment-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Deployment" />
+  </p>
+
+</div>
+
+---
+
 ### 🌟 About & Engineering Philosophy
 
 <div align="center">
@@ -51,27 +72,6 @@
     </td>
   </tr>
 </table>
-
-</div>
-
----
-
-### 🛠️ Visual Tech Stack & Ecosystem
-
-<div align="center">
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,react,nextjs,java,spring,ts,js,tailwind,aws,mysql,docker,git,github,postman&perline=8&theme=dark" alt="My Tech Stack" />
-  </a>
-
-  <br /><br />
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/Specialty-FAISS_Vector_Search-00599C?style=flat-square&logo=meta&logoColor=white" alt="FAISS" />
-    <img src="https://img.shields.io/badge/Specialty-Generative_AI_%26_RAG-F84525?style=flat-square&logoColor=white" alt="RAG" />
-    <img src="https://img.shields.io/badge/Specialty-SSE_Streaming-61DAFB?style=flat-square&logoColor=black" alt="SSE" />
-    <img src="https://img.shields.io/badge/Specialty-AWS_Deployment-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS Deployment" />
-  </p>
 
 </div>
 
@@ -111,11 +111,6 @@
 ### 📊 GitHub Real-Time Activity & Analytics
 
 <div align="center">
-
-  <!-- Interactive Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaghavSdev&theme=react-dark&bg_color=141413&color=F84525&line=F84525&point=FFFFFF&hide_border=true" width="100%" alt="Raghav S GitHub Activity Graph" />
-
-  <br /><br />
 
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=RaghavSdev&show_icons=true&theme=dark&hide_border=true&title_color=F84525&text_color=CCCCCC&icon_color=F84525&bg_color=141413" alt="Raghav S GitHub Stats" />
