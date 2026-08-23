@@ -1,7 +1,11 @@
 <div align="center">
 
-  <!-- Visual Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:f84525,100:111111&height=220&section=header&text=RAGHAV%20S&fontSize=52&fontAlignY=36&desc=AI%20%26%20ML%20ENGINEER%20%E2%80%A2%20FULL-STACK%20ARCHITECT&descFontSize=16&descAlignY=58&fontColor=ffffff" width="100%" alt="Header Banner" />
+  <!-- Custom High-Tech SVG Header Banner -->
+  <a href="https://raghavsdev.github.io/portfolio/">
+    <img src="./assets/header.svg" width="100%" alt="Raghav S - AI & Machine Learning Engineer" />
+  </a>
+
+  <br /><br />
 
   <!-- Animated JetBrains Mono Typing Subtitle -->
   <a href="https://raghavsdev.github.io/portfolio/">
@@ -14,7 +18,7 @@
   <p align="center">
     <a href="https://raghavsdev.github.io/portfolio/"><img src="https://img.shields.io/badge/⚡_LIVE_PORTFOLIO-VISIT_WEBSITE-F84525?style=for-the-badge&logoColor=white" alt="Live Portfolio Website" /></a>
     <a href="https://www.linkedin.com/in/raghav-s-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Email-cdj90000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Email-cdj90000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" /></a>
     <a href="tel:+918807178840"><img src="https://img.shields.io/badge/Phone-+91_8807178840-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" /></a>
   </p>
 
@@ -148,7 +152,7 @@
 
   <br />
 
-  <!-- Visual Waving Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:111111,100:f84525&height=120&section=footer" width="100%" alt="Footer Wave Banner" />
+  <!-- Custom High-Tech SVG Footer Banner -->
+  <img src="./assets/footer.svg" width="100%" alt="Footer Banner" />
 
 </div>
