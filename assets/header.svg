@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
   <defs>
-    <style>
-      /* ==================== KEYFRAME ANIMATIONS ==================== */
-      
-      /* Startup Boot Flash */
+    <style><![CDATA[
       @keyframes systemBoot {
         0% { opacity: 0; filter: brightness(0.2); }
         30% { opacity: 0.9; filter: brightness(2.5); }
@@ -12,27 +9,23 @@
         100% { opacity: 1; filter: brightness(1); }
       }
 
-      /* Self-Drawing Cyber Frame */
       @keyframes drawFrame {
         0% { stroke-dashoffset: 2600; opacity: 0.2; }
         70% { stroke-dashoffset: 0; opacity: 1; }
         100% { stroke-dashoffset: 0; opacity: 0.9; }
       }
 
-      /* Title Zoom & Flare Reveal */
       @keyframes titleReveal {
         0% { opacity: 0; transform: translateY(16px) scale(0.9); }
         60% { opacity: 1; transform: translateY(-2px) scale(1.02); }
         100% { opacity: 1; transform: translateY(0px) scale(1); }
       }
 
-      /* Subtitle Slide-in */
       @keyframes subReveal {
         0% { opacity: 0; transform: translateY(12px); }
         100% { opacity: 1; transform: translateY(0px); }
       }
 
-      /* Ambient Light Orbs Drifting */
       @keyframes orbMove1 {
         0% { cx: 200px; cy: 120px; r: 130px; opacity: 0.25; }
         50% { cx: 700px; cy: 150px; r: 170px; opacity: 0.4; }
@@ -45,7 +38,6 @@
         100% { cx: 750px; cy: 160px; r: 140px; opacity: 0.18; }
       }
 
-      /* Cyberpunk Horizontal Scanner Line */
       @keyframes laserScan {
         0% { y: 15px; opacity: 0; }
         15% { opacity: 0.9; }
@@ -53,33 +45,27 @@
         100% { y: 245px; opacity: 0; }
       }
 
-      /* Equalizer Waveform Bounces */
       @keyframes eqBar1 { 0%, 100% { height: 6px; y: 132px; } 50% { height: 28px; y: 121px; } }
       @keyframes eqBar2 { 0%, 100% { height: 16px; y: 127px; } 50% { height: 38px; y: 116px; } }
       @keyframes eqBar3 { 0%, 100% { height: 30px; y: 120px; } 50% { height: 10px; y: 130px; } }
       @keyframes eqBar4 { 0%, 100% { height: 38px; y: 116px; } 50% { height: 18px; y: 126px; } }
       @keyframes eqBar5 { 0%, 100% { height: 12px; y: 129px; } 50% { height: 32px; y: 119px; } }
 
-      /* Corner Tactical HUD Rotations */
       @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
       @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
 
-      /* Floating Cyber Data Micro-Particles */
       @keyframes dataFloat1 { 0% { transform: translateY(0px); opacity: 0.1; } 50% { opacity: 0.9; } 100% { transform: translateY(-50px); opacity: 0; } }
       @keyframes dataFloat2 { 0% { transform: translateY(0px); opacity: 0.2; } 50% { opacity: 0.8; } 100% { transform: translateY(-60px); opacity: 0; } }
       @keyframes dataFloat3 { 0% { transform: translateY(0px); opacity: 0.1; } 50% { opacity: 1; } 100% { transform: translateY(-45px); opacity: 0; } }
 
-      /* Live Green Pulse & Ripple */
       @keyframes statusPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
       @keyframes statusRipple { 0% { r: 4px; opacity: 0.9; } 100% { r: 15px; opacity: 0; } }
 
-      /* Bottom Laser Expand */
       @keyframes bottomLaserPulse {
         0%, 100% { width: 340px; x: 280px; opacity: 0.6; }
         50% { width: 560px; x: 170px; opacity: 1; }
       }
 
-      /* Class Mappings */
       .anim-boot { animation: systemBoot 1.2s ease-out forwards; }
       .anim-border { stroke-dasharray: 2600; animation: drawFrame 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
       .anim-title { animation: titleReveal 1.1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards; opacity: 0; transform-origin: 450px 125px; }
@@ -106,7 +92,7 @@
       .status-dot { animation: statusPulse 1.8s ease-in-out infinite; }
       .status-ring { animation: statusRipple 1.8s cubic-bezier(0.1, 0.8, 0.3, 1) infinite; }
       .anim-laser-bar { animation: bottomLaserPulse 4s ease-in-out infinite; }
-    </style>
+    ]]></style>
 
     <!-- Base Gradients -->
     <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -182,7 +168,7 @@
     <circle cx="71" cy="28" r="5" fill="#27C93F" />
     <text x="96" y="32" fill="#888888" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="600" letter-spacing="1">raghav@neural-core // AI_SYS_READY</text>
 
-    <!-- Top Right Telemetry & Status -->
+    <!-- Top Right Telemetry &amp; Status -->
     <circle class="status-ring" cx="780" cy="28" r="4" fill="none" stroke="#27C93F" stroke-width="1.5" />
     <circle class="status-dot" cx="780" cy="28" r="4.5" fill="#27C93F" />
     <text x="796" y="32" fill="#27C93F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="1">● ONLINE</text>
@@ -190,7 +176,7 @@
     <!-- Header Divider Line -->
     <line x1="20" y1="48" x2="880" y2="48" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
 
-    <!-- Left Tactical Reticle & Neural Wave Equalizer -->
+    <!-- Left Tactical Reticle &amp; Neural Wave Equalizer -->
     <g class="anim-reticle-l">
       <circle cx="50" cy="130" r="18" fill="none" stroke="#F84525" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="8, 4"/>
       <path d="M 50 107 L 50 153 M 27 130 L 73 130" stroke="#F84525" stroke-opacity="0.25" stroke-width="0.8"/>
@@ -204,7 +190,7 @@
       <rect class="eq5" x="104" y="129" width="3" height="12" rx="1.5" />
     </g>
 
-    <!-- Right Tactical Reticle & Neural Wave Equalizer -->
+    <!-- Right Tactical Reticle &amp; Neural Wave Equalizer -->
     <g class="anim-reticle-r">
       <circle cx="850" cy="130" r="18" fill="none" stroke="#F84525" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="8, 4"/>
       <path d="M 850 107 L 850 153 M 827 130 L 873 130" stroke="#F84525" stroke-opacity="0.25" stroke-width="0.8"/>
@@ -226,7 +212,7 @@
       <text x="450" y="124" text-anchor="middle" fill="url(#flame-title)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="50" font-weight="900" letter-spacing="6">RAGHAV S</text>
     </g>
 
-    <!-- Subtitle 1: AI & ML ENGINEER -->
+    <!-- Subtitle 1: AI &amp; ML ENGINEER -->
     <g class="anim-sub1">
       <text x="450" y="162" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="14" font-weight="700" letter-spacing="3" opacity="0.95">AI &amp; MACHINE LEARNING ENGINEER</text>
     </g>

@@ -1,8 +1,8 @@
 <div align="center">
 
-  <!-- Custom High-Tech SVG Header Banner -->
+  <!-- Custom High-Tech Animated SVG Header Banner -->
   <a href="https://raghavsdev.github.io/portfolio/">
-    <img src="./assets/header.svg" width="100%" alt="Raghav S - AI & Machine Learning Engineer" />
+    <img src="https://raw.githubusercontent.com/RaghavSdev/Raghavsdev/main/assets/header.svg" width="100%" alt="Raghav S - AI &amp; Machine Learning Engineer" />
   </a>
 
   <br /><br />
@@ -152,7 +152,7 @@
 
   <br />
 
-  <!-- Custom High-Tech SVG Footer Banner -->
-  <img src="./assets/footer.svg" width="100%" alt="Footer Banner" />
+  <!-- Custom High-Tech Animated SVG Footer Banner -->
+  <img src="https://raw.githubusercontent.com/RaghavSdev/Raghavsdev/main/assets/footer.svg" width="100%" alt="Footer Banner" />
 
 </div>
