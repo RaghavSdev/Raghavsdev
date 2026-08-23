@@ -1,24 +1,17 @@
+[<img src="https://raw.githubusercontent.com/RaghavSdev/Raghavsdev/main/assets/intro.gif" width="100%" alt="👋 Hi there! I'm Raghav S" title="👋 Hi there! I'm Raghav S"/>](https://raghavsdev.github.io/portfolio/)
+
 <div align="center">
-
-  <!-- Custom High-Tech Animated SVG Header Banner -->
-  <a href="https://raghavsdev.github.io/portfolio/">
-    <img src="https://raw.githubusercontent.com/RaghavSdev/Raghavsdev/main/assets/header.svg" width="100%" alt="Raghav S - AI &amp; Machine Learning Engineer" />
-  </a>
-
-  <br /><br />
-
-  <!-- Animated JetBrains Mono Typing Subtitle -->
-  <a href="https://raghavsdev.github.io/portfolio/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=1000&color=F84525&center=true&vCenter=true&width=750&height=40&lines=Building+Intelligent+AI+Models;Deploying+Production+Systems+at+Scale;Predictive+Modeling+%2F%2F+RAG+Pipelines;React.js+%2F%2F+Spring+Boot+%2F%2F+AWS+Cloud" alt="Typing Banner" />
-  </a>
 
   <br />
 
   <!-- Quick Action & Connect Launchers -->
   <p align="center">
     <a href="https://raghavsdev.github.io/portfolio/"><img src="https://img.shields.io/badge/⚡_LIVE_PORTFOLIO-VISIT_WEBSITE-F84525?style=for-the-badge&logoColor=white" alt="Live Portfolio Website" /></a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/raghav-s-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    &nbsp;
     <a href="mailto:cdj90000@gmail.com"><img src="https://img.shields.io/badge/Email-cdj90000@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" /></a>
+    &nbsp;
     <a href="tel:+918807178840"><img src="https://img.shields.io/badge/Phone-+91_8807178840-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" /></a>
   </p>
 
