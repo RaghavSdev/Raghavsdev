@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <style><![CDATA[
+      @keyframes statGlow {
+        0%, 100% { stroke-opacity: 0.35; }
+        50% { stroke-opacity: 0.75; }
+      }
+      @keyframes pulseBar {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+      .card-border { animation: statGlow 4s ease-in-out infinite; }
+      .bar-fill { animation: pulseBar 3s ease-in-out infinite; }
+    ]]></style>
+
+    <linearGradient id="stats-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141413" />
+      <stop offset="50%" stop-color="#181817" />
+      <stop offset="100%" stop-color="#0e0e0d" />
+    </linearGradient>
+
+    <linearGradient id="flame-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5738" />
+      <stop offset="100%" stop-color="#F84525" />
+    </linearGradient>
+
+    <linearGradient id="bar-gradient-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F84525" />
+      <stop offset="100%" stop-color="#FF8A65" />
+    </linearGradient>
+
+    <linearGradient id="bar-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61DAFB" />
+      <stop offset="100%" stop-color="#29B6F6" />
+    </linearGradient>
+
+    <linearGradient id="bar-gradient-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6DB33F" />
+      <stop offset="100%" stop-color="#81C784" />
+    </linearGradient>
+
+    <pattern id="stats-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="900" height="240" rx="14" fill="url(#stats-bg)" />
+  <rect width="900" height="240" rx="14" fill="url(#stats-grid)" />
+
+  <!-- Center Divider Line -->
+  <line x1="450" y1="20" x2="450" y2="220" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="4, 4"/>
+
+  <!-- ==================== LEFT COLUMN: REPO & ENGINEERING METRICS ==================== -->
+  <text x="40" y="48" fill="url(#flame-accent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="16" font-weight="800" letter-spacing="1">⚡ ENGINEERING &amp; REPO METRICS</text>
+
+  <!-- Stat Item 1 -->
+  <text x="40" y="88" fill="#A8A8A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="600">● GitHub Repositories</text>
+  <text x="390" y="88" text-anchor="end" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="14" font-weight="800">5 Active Repos</text>
+
+  <!-- Stat Item 2 -->
+  <text x="40" y="124" fill="#A8A8A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="600">● Oracle Gen AI Certification</text>
+  <text x="390" y="124" text-anchor="end" fill="#F84525" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="14" font-weight="800">86% Score</text>
+
+  <!-- Stat Item 3 -->
+  <text x="40" y="160" fill="#A8A8A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="600">● Plant Disease AI Accuracy</text>
+  <text x="390" y="160" text-anchor="end" fill="#27C93F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="14" font-weight="800">98% Accuracy</text>
+
+  <!-- Stat Item 4 -->
+  <text x="40" y="196" fill="#A8A8A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="600">● Production Cloud Deployments</text>
+  <text x="390" y="196" text-anchor="end" fill="#61DAFB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="14" font-weight="800">AWS &amp; Vercel</text>
+
+
+  <!-- ==================== RIGHT COLUMN: CORE DOMAIN PROFICIENCY ==================== -->
+  <text x="490" y="48" fill="url(#flame-accent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="16" font-weight="800" letter-spacing="1">🛠️ DOMAIN COMPETENCY BREAKDOWN</text>
+
+  <!-- Domain 1: AI & ML -->
+  <text x="490" y="85" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">AI &amp; Machine Learning (PyTorch, FAISS RAG, GenAI)</text>
+  <text x="850" y="85" text-anchor="end" fill="#F84525" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">95%</text>
+  <!-- Bar 1 Background & Fill -->
+  <rect x="490" y="93" width="360" height="7" rx="3.5" fill="#262624" />
+  <rect class="bar-fill" x="490" y="93" width="342" height="7" rx="3.5" fill="url(#bar-gradient-1)" />
+
+  <!-- Domain 2: Full-Stack -->
+  <text x="490" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">Full-Stack Development (React, Spring Boot, MySQL)</text>
+  <text x="850" y="130" text-anchor="end" fill="#61DAFB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">90%</text>
+  <!-- Bar 2 Background & Fill -->
+  <rect x="490" y="138" width="360" height="7" rx="3.5" fill="#262624" />
+  <rect class="bar-fill" x="490" y="138" width="324" height="7" rx="3.5" fill="url(#bar-gradient-2)" />
+
+  <!-- Domain 3: Cloud & Architecture -->
+  <text x="490" y="175" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">Cloud &amp; DevOps (AWS, Docker, REST &amp; SSE Streaming)</text>
+  <text x="850" y="175" text-anchor="end" fill="#6DB33F" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" font-weight="700">88%</text>
+  <!-- Bar 3 Background & Fill -->
+  <rect x="490" y="183" width="360" height="7" rx="3.5" fill="#262624" />
+  <rect class="bar-fill" x="490" y="183" width="316" height="7" rx="3.5" fill="url(#bar-gradient-3)" />
+
+  <!-- Outer Neon Border -->
+  <rect class="card-border" width="900" height="240" rx="14" fill="none" stroke="#F84525" stroke-width="1.5" />
+</svg>

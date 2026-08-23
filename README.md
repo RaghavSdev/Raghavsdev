@@ -108,18 +108,21 @@
 
 ---
 
-### 📊 GitHub Real-Time Activity & Analytics
+### 📊 Engineering Analytics & Telemetry
 
 <div align="center">
 
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=RaghavSdev&show_icons=true&theme=dark&hide_border=true&title_color=F84525&text_color=CCCCCC&icon_color=F84525&bg_color=141413" alt="Raghav S GitHub Stats" />
-    &nbsp;
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaghavSdev&layout=compact&theme=dark&hide_border=true&title_color=F84525&text_color=CCCCCC&icon_color=F84525&bg_color=141413" alt="Top Languages" />
-  </p>
+  <!-- Custom Self-Hosted Zero-Dependency SVG Stats Card -->
+  <img src="https://raw.githubusercontent.com/RaghavSdev/Raghavsdev/main/assets/stats.svg" width="100%" alt="Raghav S Engineering Stats" />
+
+  <br /><br />
 
   <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=RaghavSdev&theme=dark&hide_border=true&stroke=F84525&background=141413&ring=F84525&fire=F84525&currStreakNum=F84525&sidenums=CCCCCC&sidelem=CCCCCC" alt="GitHub Streak Stats" />
+    <a href="https://github.com/RaghavSdev?tab=followers"><img src="https://img.shields.io/github/followers/RaghavSdev?label=GitHub_Followers&style=for-the-badge&logo=github&color=F84525&logoColor=white" alt="Followers" /></a>
+    &nbsp;
+    <a href="https://github.com/RaghavSdev?tab=repositories"><img src="https://img.shields.io/badge/Public_Repos-5_Verified-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+    &nbsp;
+    <img src="https://img.shields.io/badge/Production_Uptime-100%25-27C93F?style=for-the-badge&logo=githubactions&logoColor=white" alt="Uptime" />
   </p>
 
 </div>
